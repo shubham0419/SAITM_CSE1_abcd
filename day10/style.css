@@ -1,0 +1,24 @@
+/* p {
+    color: brown;
+    background-color: aqua;
+} */
+
+* {
+    border: 3px solid violet;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h1 {
+    color: red;
+}
+
+#para-2 {
+    color: coral;
+}
+
+.sec-a {
+    color: crimson;
+}

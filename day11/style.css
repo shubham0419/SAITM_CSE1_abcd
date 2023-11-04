@@ -1,0 +1,50 @@
+/* p {
+    color: chocolate;
+} */
+
+#para1 {
+    color: blue;
+}
+
+/* .sec-a {
+    color: red;
+} */
+
+/* #para1 {
+    color: red;
+} */
+
+/* decendant sibling */
+
+/* article p {
+    color: blue;
+} */
+
+article strong {
+    color: red;
+}
+
+/* child */
+article>p {
+    color: blue;
+}
+
+ol>li {
+    color: chocolate;
+}
+
+/* next-sibling */
+h2+p {
+    color: blue;
+}
+
+a+p {
+    color: brown;
+}
+
+/* subsequent */
+
+h1~a {
+    color: green;
+    text-decoration: none;
+}
