@@ -1,0 +1,91 @@
+/* #outer {
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    margin-top: 100px;
+}
+
+#inside {
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin-left: 125px;
+} */
+/* Attribute selector */
+
+input[type="text"] {
+    background-color: burlywood;
+}
+
+input[placeholder="Pass"] {
+    background-color: aqua;
+}
+
+a[href="http://goggle.com"] {
+    color: red;
+    text-decoration: none;
+}
+
+/* pseudo class selector */
+
+/* state 1(rest) */
+#container {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+/* state 2(hover) */
+#container:hover {
+    background-color: greenyellow;
+}
+
+/* state1 */
+#container2 {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+/* state2(active) */
+#container2:active {
+    background-color: rgb(222, 128, 128);
+}
+
+h1 {
+    font-size: 36px;
+    color: blueviolet;
+}
+
+h1:hover {
+    transition: 800ms;
+    font-size: 37px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    background-color: black;
+    border-color: white;
+    border-radius: 5%;
+    color: white;
+}
+
+button:hover {
+    transition: 400ms;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+button:active {
+    transition: 300ms;
+    height: 49px;
+    width: 149px;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+}

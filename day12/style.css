@@ -12,7 +12,7 @@
     /* border-width: 5px;
     border-style: solid;
     border-color: black; */
-    /* border-radius: 50%; */
+    border-radius: 50%;
     border: 5px dashed black;
 
     /* border-bottom: 5px solid black; */
@@ -21,12 +21,12 @@
 button {
     color: white;
     background-color: black;
-    /* margin-top: 100px; */
-    /* margin-left: 500px; */
+    margin-top: 100px;
+    margin-left: 500px;
     /* margin-left: 50%; */
     margin: 100px 0 50px 50px;
 
-    /* padding-top: 100px;
-    padding-left: 50px; */
+    padding-top: 100px;
+    padding-left: 50px;
     padding: 50px;
 }
